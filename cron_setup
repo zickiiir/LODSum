@@ -1,0 +1,3 @@
+*/10 * * * * php -q /data/www/blaha/rzzw/lodsum.php status
+*/8 * * * * sh /data/www/blaha/rzzw/lodshell.sh
+*/6 * * * * php -q /data/www/blaha/rzzw/lodstat.php sum
