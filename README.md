@@ -31,7 +31,7 @@ rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcet
 ├── lodshell.sh<br/>
 └── index.htm<br/>
     
-### 2. Změny absolutních cest v souborech
+## 2. Změny absolutních cest v souborech
 
 ### lodshell.sh
 
@@ -43,7 +43,7 @@ rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcet
 2. řádek - cd **"cesta k Vašemu hlavnímu adresáři"**/todo/<br/>
 19. řádek - nohup java -jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/LODSight.jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/config.properties $attr 1>>$out 2>>$err &
 
-### 3. Nastavení pro cron - soubor cron_setup
+## 3. Nastavení pro cron - soubor cron_setup
 
 ### crontab -e
 
