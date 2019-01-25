@@ -39,7 +39,7 @@ GitHub verze:<br/>
 2. řádek - cd /data/www/blaha/rzzw/todo/<br/>
 19. řádek - nohup java -jar /data/www/blaha/rzzw/lodsum/LODSight.jar /data/www/blaha/rzzw/lodsum/config.properties $attr 1>>$out 2>>$err &
 
-Vaše verze:
+Vaše verze:<br/>
 2. řádek - cd **"cesta k Vašemu hlavnímu adresáři"**/todo/<br/>
 19. řádek - nohup java -jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/LODSight.jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/config.properties $attr 1>>$out 2>>$err &
 
@@ -47,12 +47,12 @@ Vaše verze:
 
 ### crontab -e
 
-GitHub verze:
+GitHub verze:<br/>
 */10 * * * * php -q /data/www/blaha/rzzw/lodsum.php status<br/>
 */8 * * * * sh /data/www/blaha/rzzw/lodshell.sh<br/>
 */6 * * * * php -q /data/www/blaha/rzzw/lodstat.php sum
 
-Vaše verze:
+Vaše verze:<br/>
 */10 * * * * php -q **"cesta k Vašemu hlavnímu adresáři"**/lodsum.php status<br/>
 */8 * * * * sh **"cesta k Vašemu hlavnímu adresáři"**/lodshell.sh<br/>
 */6 * * * * php -q **"cesta k Vašemu hlavnímu adresáři"**/lodstat.php sum
