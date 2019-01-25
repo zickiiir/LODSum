@@ -7,7 +7,7 @@
 
 Pro použití LODSum na vašem serveru je třeba vytvořit následující adresářovou strukturu:
 
-rzzw/ **název hlavního adresáře - tento adresář můžete nazvat jak chcete**<br/>
+rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcete"**<br/>
 ├── todo/<br/>
 │   └── ** obsahuje logy o požadavcích, které je třeba zpracovat **<br/>
 ├── logs/<br/>
@@ -35,25 +35,25 @@ rzzw/ **název hlavního adresáře - tento adresář můžete nazvat jak chcete
 
 ### lodshell.sh
 
-GitHub verze:
-2. řádek - cd /data/www/blaha/rzzw/todo/
+GitHub verze:<br/>
+2. řádek - cd /data/www/blaha/rzzw/todo/<br/>
 19. řádek - nohup java -jar /data/www/blaha/rzzw/lodsum/LODSight.jar /data/www/blaha/rzzw/lodsum/config.properties $attr 1>>$out 2>>$err &
 
 Vaše verze:
-2. řádek - cd **cesta k Vašemu hlavnímu adresáři**/todo/
-19. řádek - nohup java -jar **cesta k Vašemu hlavnímu adresáři**/lodsum/LODSight.jar **cesta k Vašemu hlavnímu adresáři**/lodsum/config.properties $attr 1>>$out 2>>$err &
+2. řádek - cd **"cesta k Vašemu hlavnímu adresáři"**/todo/<br/>
+19. řádek - nohup java -jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/LODSight.jar **"cesta k Vašemu hlavnímu adresáři"**/lodsum/config.properties $attr 1>>$out 2>>$err &
 
 3. Nastavení pro cron - soubor cron_setup
 
 ### crontab -e
 
 GitHub verze:
-*/10 * * * * php -q /data/www/blaha/rzzw/lodsum.php status
-*/8 * * * * sh /data/www/blaha/rzzw/lodshell.sh
+*/10 * * * * php -q /data/www/blaha/rzzw/lodsum.php status<br/>
+*/8 * * * * sh /data/www/blaha/rzzw/lodshell.sh<br/>
 */6 * * * * php -q /data/www/blaha/rzzw/lodstat.php sum
 
 Vaše verze:
-*/10 * * * * php -q **cesta k Vašemu hlavnímu adresáři**/lodsum.php status
-*/8 * * * * sh **cesta k Vašemu hlavnímu adresáři**/lodshell.sh
-*/6 * * * * php -q **cesta k Vašemu hlavnímu adresáři**/lodstat.php sum
+*/10 * * * * php -q **"cesta k Vašemu hlavnímu adresáři"**/lodsum.php status<br/>
+*/8 * * * * sh **"cesta k Vašemu hlavnímu adresáři"**/lodshell.sh<br/>
+*/6 * * * * php -q **"cesta k Vašemu hlavnímu adresáři"**/lodstat.php sum
 
