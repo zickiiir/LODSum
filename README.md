@@ -7,29 +7,29 @@
 
 Pro použití LODSum na vašem serveru je třeba vytvořit následující adresářovou strukturu:
 
-rzzw/ **název hlavního adresáře - tento adresář můžete nazvat jak chcete**
-├── todo/
-│   └── ** obsahuje logy o požadavcích, které je třeba zpracovat **
-├── logs/
-│   ├── ** obsahuje výstupní logy během spouštění LODSight.jar **
-│   └── err
-│   	└── ** obsahuje chybové logy během spouštění LODSight.jar **
-├── done/
-│   └── ** obsahuje výstupní logy během spouštění LODSight.jar **
-├── lodsum/
-│   ├── LODSight.jar
-│   └── config.properties
-├── css/
-│   ├── style.css
-│   └── jquery-ui.css
-├── js/
-│   ├── script.js
-│   └── autosize.js
-├── lodsum.php
-├── lodstat.php
-├── lib.php
-├── lodshell.sh
-└── index.htm    
+rzzw/ **název hlavního adresáře - tento adresář můžete nazvat jak chcete**<br/>
+├── todo/<br/>
+│   └── ** obsahuje logy o požadavcích, které je třeba zpracovat **<br/>
+├── logs/<br/>
+│   ├── ** obsahuje výstupní logy během spouštění LODSight.jar **<br/>
+│   └── err<br/>
+│   	└── ** obsahuje chybové logy během spouštění LODSight.jar **<br/>
+├── done/<br/>
+│   └── ** obsahuje výstupní logy během spouštění LODSight.jar **<br/>
+├── lodsum/<br/>
+│   ├── LODSight.jar<br/>
+│   └── config.properties<br/>
+├── css/<br/>
+│   ├── style.css<br/>
+│   └── jquery-ui.css<br/>
+├── js/<br/>
+│   ├── script.js<br/>
+│   └── autosize.js<br/>
+├── lodsum.php<br/>
+├── lodstat.php<br/>
+├── lib.php<br/>
+├── lodshell.sh<br/>
+└── index.htm<br/>
     
 2. Změny absolutních cest v souborech
 
