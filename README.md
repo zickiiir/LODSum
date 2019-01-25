@@ -5,7 +5,7 @@
 
 ## 1. Adresářová struktura
 
-Pro použití LODSum na vašem serveru je třeba vytvořit následující adresářovou strukturu:
+Pro použití LODSum na Vašem serveru je třeba vytvořit následující adresářovou strukturu:
 
 rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcete"**<br/>
 ├── todo/<br/>
