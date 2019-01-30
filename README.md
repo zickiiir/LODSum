@@ -9,13 +9,9 @@ Pro použití LODSum na Vašem serveru je třeba vytvořit následující adres�
 
 rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcete"**<br/>
 ├── todo/<br/>
-│   └── ** obsahuje logy o požadavcích, které je třeba zpracovat **<br/>
 ├── logs/<br/>
-│   ├── ** obsahuje výstupní logy během spouštění LODSight.jar **<br/>
 │   └── err<br/>
-│   	└── ** obsahuje chybové logy během spouštění LODSight.jar **<br/>
 ├── done/<br/>
-│   └── ** obsahuje výstupní logy během spouštění LODSight.jar **<br/>
 ├── lodsum/<br/>
 │   ├── LODSight.jar<br/>
 │   └── config.properties<br/>
