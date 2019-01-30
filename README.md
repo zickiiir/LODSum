@@ -64,7 +64,7 @@ dbuser=lodsight<br/>
 dbpassword=loddva<br/>
 
 **Vaše verze:**<br/>
-server=**adresa serveru, na kterém se databáze nachází**<br/>
-database=**název databáze LODSight**<br/>
-dbuser=**oprávněný uživatel databáze**<br/>
-dbpassword=**heslo pro uživatele databáze**<br/>
+server=**"adresa serveru, na kterém se databáze nachází"**<br/>
+database=**"název databáze LODSight"**<br/>
+dbuser=**"oprávněný uživatel databáze"**<br/>
+dbpassword=**"heslo pro uživatele databáze"**<br/>
