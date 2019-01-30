@@ -53,3 +53,18 @@ rzzw/ **"název hlavního adresáře - tento adresář můžete nazvat jak chcet
 */8 * * * * sh **"cesta k Vašemu hlavnímu adresáři"**/lodshell.sh<br/>
 */6 * * * * php -q **"cesta k Vašemu hlavnímu adresáři"**/lodstat.php sum
 
+## 4. Přístup k databázi
+
+### lodsum/config.properties
+
+**GitHub verze:**<br/>
+server=localhost:3306<br/>
+database=lodsight2<br/>
+dbuser=lodsight<br/>
+dbpassword=loddva<br/>
+
+**Vaše verze:**<br/>
+server=**adresa serveru, na kterém se databáze nachází**<br/>
+database=**název databáze LODSight**<br/>
+dbuser=**oprávněný uživatel databáze**<br/>
+dbpassword=**heslo pro uživatele databáze**<br/>
